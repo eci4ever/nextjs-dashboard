@@ -2,6 +2,8 @@ import { generateYAxis } from '@/app/lib/utils';
 import { CalendarIcon } from '@heroicons/react/24/outline';
 import { Revenue } from '@/app/lib/definitions';
 import { inter } from '../fonts';
+import { lusitana } from '@/app/ui/fonts';
+
 
 // This component is representational only.
 // For data visualization UI, check out:
@@ -25,7 +27,7 @@ export default async function RevenueChart({
 
   return (
     <div className="w-full md:col-span-4">
-      <h2 className={`${inter.className} mb-4 text-xl md:text-2xl`}>
+      <h2 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
         Recent Revenue
       </h2>
       <div className="rounded-xl bg-gray-50 p-4">
